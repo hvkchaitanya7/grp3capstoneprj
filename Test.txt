@@ -1,0 +1,68 @@
+1.  Installed git 
+2. Created a folder named ' test1' on the desktop
+3. opened git bash
+
+-----------------------------------------
+1. cd  desktop
+2. cd test1
+
+ Initializing git 
+3. git init 
+
+For configuration of email and user
+
+A) git config --global user.name " Your_name"
+B) git config --global user.email " -----------@--.com"
+
+4. ls -a   ---> It will give the folder inside test1 folder
+5. touch info.txt
+6. echo Hello Buddy1. >  info.txt
+7. echo Hello Buddy2. >> info.txt 
+8. cat info.txt
+9. git status
+10. git add file_name  ( It will stage one file at a time
+ or git add .  (It will stage all files at once)
+11. git commit -m " this is my first commit"
+12. echo This is a folder for learning git and github. > Readme.txt
+13. git status
+14. git add .
+15. git commit -m "Explanation of repo"
+16. git log
+
+17. Do some changes inside anyone text file.(Through any way)
+18. git status
+19. git add .
+20. git commit -m "few codes added"
+21. git log
+
+
+For restoring previous version:
+
+1. copy the commit log id till which we want to restore
+2. git reset c85b0d6569800b3ca5b5c0d17171a4996c0526a5
+3. git status 
+4. git  add .
+5. git stash
+6. git status
+7. git stash pop
+8. git add .
+9. git commit -m "stashed file added again"
+10. git log
+
+For deleting stashed file
+
+1.Created third text file inside same folder
+2. git add .
+3. git commit -m "third code file added"
+4. Copy the commit log id till where we want to restore
+
+79486247e41064e8d86c940ddc1abfb786adddaa
+
+5. git reset 79486247e41064e8d86c940ddc1abfb786adddaa
+6. git status
+7.git add .
+8. git stash
+9. git stash pop
+10. git stash
+11. git stash clear
+12. git stash show
