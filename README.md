@@ -2,6 +2,8 @@
 Capstone project for Group3
 --- Base Model with basic implementation of Encoder + Word Embedding + LSTM using pretrained models
 
+Project Objective - Automated Captioning of Images
+
 ImageCaptionGroup3_BaseLine_Inception.ipynb
 Encoder - Inception
 Word Embedding - Glove + LSTM
