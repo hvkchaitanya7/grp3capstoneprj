@@ -10,6 +10,8 @@ Flickr8k: https://github.com/goodwillyoga/Flickr8k_dataset
 
 Flickr30k: https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset
 
+Coco: https://cocodataset.org/#home 
+
 #### Python files:
 
 #### ImageCaptionGroup3_BaseLine_Inception.ipynb
@@ -17,7 +19,7 @@ Flickr30k: https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset
 Encoder - InceptionV3, 
 Word Embedding - Glove + LSTM, 
 Decoder - FC, 
-Data Set - FLickr8, 
+Data Set - FLickr8k, 
 Model - Keras + Tensorflow, 
 Evaluation - Bleu Results
 
@@ -26,7 +28,7 @@ Evaluation - Bleu Results
 Encoder - Resnet50, 
 Word Embedding - Glove + LSTM, 
 Decoder - FC, 
-Data Set - FLickr8, 
+Data Set - FLickr8k, 
 Model - Keras + Tensorflow, 
 Evaluation - Bleu Results
 
@@ -35,7 +37,7 @@ Evaluation - Bleu Results
 Encoder - Resnet50, 
 Word Embedding - Glove + LSTM, 
 Decoder - LSTM + FC, 
-Data Set - FLickr8, 
+Data Set - FLickr8k, 
 Model - Keras + Tensorflow, 
 Evaluation - Bleu Results, 
 
@@ -45,6 +47,36 @@ Evaluation - Bleu Results,
 Encoder - Resnet50, 
 Word Embedding - 
 Decoder - GRU + Attention, 
+Data Set - FLickr8k, 
+Model - Keras + Tensorflow, 
+Evaluation - Bleu Results
+
+
+#### ImageCaptionGroup3_Flickr30_Resnet.ipynb
+
+Encoder - Resnet50, 
+Word Embedding - Glove + LSTM, 
+Decoder - LSTM + FC, 
+Data Set - FLickr30k, 
+Model - Keras + Tensorflow, 
+Evaluation - Bleu Results, 
+
+
+#### ImageCaptiongenerator_Transformer_InceptionV3.ipynb
+
+Encoder - InceptionV3, 
+Word Embedding - 
+Decoder - Transformer, 
+Data Set - FLickr8k, 
+Model - Keras + Tensorflow, 
+Evaluation - Bleu Results
+
+
+#### ImageCaptiongenerator_Transformer_Restnet50.ipynb
+
+Encoder - Resnet50, 
+Word Embedding - 
+Decoder - Transformer, 
 Data Set - FLickr8, 
 Model - Keras + Tensorflow, 
 Evaluation - Bleu Results
